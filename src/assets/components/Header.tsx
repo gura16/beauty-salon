@@ -1,13 +1,16 @@
 
 function Header() {
   return (
-    <header>
-      <h1>Beauty Salon</h1>
+    <header className="site-header">
+      <a href="#home" className="logo">
+        Beauty Salon ნინო
+      </a>
 
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+      <nav className="navigation">
+        <a href="#home">მთავარი</a>
+        <a href="#services">მომსახურებები</a>
+        <a href="#gallery">გალერეა</a>
+        <a href="#contact">კონტაქტი</a>
       </nav>
     </header>
   );
