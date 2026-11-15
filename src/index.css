@@ -19,6 +19,3 @@ button,
 a {
   -webkit-tap-highlight-color: transparent;
 }
-.hero-image{
-  background-image: url('../public/images/salon-hero.png');
-}
