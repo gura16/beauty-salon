@@ -1,0 +1,23 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 8%;
+  background-color: #f8e9e9;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 80px 8%;
+  text-align: center;
+}
