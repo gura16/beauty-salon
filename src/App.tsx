@@ -3,6 +3,7 @@ import Header from "./assets/components/Header";
 import Hero from "./assets/components/Hero";
 import ServiceCard from "./assets/components/ServiceCard";
 import Footer from "./assets/components/Footer";
+import Gallery from "./assets/components/Gallery";
 import "./App.css";
 
 const services = [
@@ -34,6 +35,7 @@ function App() {
             ))}
           </div>
         </section>
+        <Gallery />
       </main>
       <Footer />
     </>
