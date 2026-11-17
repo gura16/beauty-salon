@@ -4,6 +4,7 @@ import Hero from "./assets/components/Hero";
 import ServiceCard from "./assets/components/ServiceCard";
 import Footer from "./assets/components/Footer";
 import Gallery from "./assets/components/Gallery";
+import About from "./assets/components/About";
 import "./App.css";
 
 const services = [
@@ -21,6 +22,7 @@ function App() {
       <Hero />
 
       <main>
+        <About />
         <section className="services-section" id="services">
           <span className="section-label">OUR SERVICES</span>
           <h2>ჩვენი მომსახურებები</h2>
